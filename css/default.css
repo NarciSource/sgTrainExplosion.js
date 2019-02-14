@@ -1,0 +1,57 @@
+
+.sgtx__icon {
+    position: absolute;
+    bottom: -40px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 5px 8px;
+    color: grey;
+    cursor: pointer;
+}
+.sgtx__icon:hover {
+    border-color: ghostwhite;
+}
+.sgtx__icon--activated {
+    color: ghostwhite;
+    border-color: ghostwhite;
+}
+
+.sgtx__rail {
+    display: flex;
+    margin: 5px;
+}
+.sgtx__train {
+    display: flex;
+    overflow: auto;
+    width: 100%;
+}
+.sgtx__train--expand {
+    flex-wrap: wrap;
+}
+.sgtx__train__locomotive {
+    position: relative;
+    cursor: pointer;
+}
+.sgtx__train__locomotive__train-gif {
+    width: 230px;
+    height: 80px;
+}
+.sgtx__train__locomotive__count {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.sgtx__train__locomotive__count > i {
+    font-size: 24px;
+}
+
+.sgtx__train__trailer {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    width: max-content;
+    margin: 2px;
+}
